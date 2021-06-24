@@ -2,6 +2,7 @@
 baseURL = "http://examplesite.org/"
 title = "Bigspring Hugo"
 theme = "bigspring"
+publishDir = "docs"
 defaultContentLanguage = "fr"
 # post pagination
 paginate = "3"
