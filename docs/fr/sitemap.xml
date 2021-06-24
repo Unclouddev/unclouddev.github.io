@@ -2,242 +2,242 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://examplesite.org/</loc>
+    <loc>https://unclouddev.github.io/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/"
+                href="https://unclouddev.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/"
+                href="https://unclouddev.github.io/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/"
+                href="https://unclouddev.github.io/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-1/</loc>
+    <loc>https://unclouddev.github.io/blog/post-1/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-1/"
+                href="https://unclouddev.github.io/en/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/blog/post-1/"
+                href="https://unclouddev.github.io/de/blog/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-1/"
+                href="https://unclouddev.github.io/blog/post-1/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-4/</loc>
+    <loc>https://unclouddev.github.io/blog/post-4/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-4/"
+                href="https://unclouddev.github.io/en/blog/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-4/"
+                href="https://unclouddev.github.io/blog/post-4/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-5/</loc>
+    <loc>https://unclouddev.github.io/blog/post-5/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-5/"
+                href="https://unclouddev.github.io/en/blog/post-5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-5/"
+                href="https://unclouddev.github.io/blog/post-5/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-6/</loc>
+    <loc>https://unclouddev.github.io/blog/post-6/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-6/"
+                href="https://unclouddev.github.io/en/blog/post-6/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-6/"
+                href="https://unclouddev.github.io/blog/post-6/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/</loc>
+    <loc>https://unclouddev.github.io/blog/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/"
+                href="https://unclouddev.github.io/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/blog/"
+                href="https://unclouddev.github.io/de/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/"
+                href="https://unclouddev.github.io/blog/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-2/</loc>
+    <loc>https://unclouddev.github.io/blog/post-2/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-2/"
+                href="https://unclouddev.github.io/en/blog/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-2/"
+                href="https://unclouddev.github.io/blog/post-2/"
                 />
   </url><url>
-    <loc>http://examplesite.org/blog/post-3/</loc>
+    <loc>https://unclouddev.github.io/blog/post-3/</loc>
     <lastmod>2020-04-18T10:07:21+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/blog/post-3/"
+                href="https://unclouddev.github.io/en/blog/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/blog/post-3/"
+                href="https://unclouddev.github.io/blog/post-3/"
                 />
   </url><url>
-    <loc>http://examplesite.org/categories/</loc>
+    <loc>https://unclouddev.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/categories/"
+                href="https://unclouddev.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/categories/"
+                href="https://unclouddev.github.io/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/categories/"
+                href="https://unclouddev.github.io/categories/"
                 />
   </url><url>
-    <loc>http://examplesite.org/faq/</loc>
+    <loc>https://unclouddev.github.io/faq/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/faq/"
+                href="https://unclouddev.github.io/en/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/faq/"
+                href="https://unclouddev.github.io/de/faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/faq/"
+                href="https://unclouddev.github.io/faq/"
                 />
   </url><url>
-    <loc>http://examplesite.org/contact/</loc>
+    <loc>https://unclouddev.github.io/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/contact/"
+                href="https://unclouddev.github.io/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/contact/"
+                href="https://unclouddev.github.io/de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/contact/"
+                href="https://unclouddev.github.io/contact/"
                 />
   </url><url>
-    <loc>http://examplesite.org/pricing/</loc>
+    <loc>https://unclouddev.github.io/pricing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/pricing/"
+                href="https://unclouddev.github.io/en/pricing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/pricing/"
+                href="https://unclouddev.github.io/de/pricing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/pricing/"
+                href="https://unclouddev.github.io/pricing/"
                 />
   </url><url>
-    <loc>http://examplesite.org/privacy-policy/</loc>
+    <loc>https://unclouddev.github.io/privacy-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/privacy-policy/"
+                href="https://unclouddev.github.io/en/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/privacy-policy/"
+                href="https://unclouddev.github.io/de/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/privacy-policy/"
+                href="https://unclouddev.github.io/privacy-policy/"
                 />
   </url><url>
-    <loc>http://examplesite.org/tags/</loc>
+    <loc>https://unclouddev.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/tags/"
+                href="https://unclouddev.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/tags/"
+                href="https://unclouddev.github.io/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/tags/"
+                href="https://unclouddev.github.io/tags/"
                 />
   </url><url>
-    <loc>http://examplesite.org/terms-conditions/</loc>
+    <loc>https://unclouddev.github.io/terms-conditions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://examplesite.org/en/terms-conditions/"
+                href="https://unclouddev.github.io/en/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://examplesite.org/de/terms-conditions/"
+                href="https://unclouddev.github.io/de/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://examplesite.org/terms-conditions/"
+                href="https://unclouddev.github.io/terms-conditions/"
                 />
   </url>
 </urlset>
