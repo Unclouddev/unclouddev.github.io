@@ -1,0 +1,31 @@
+#################### default parameters ################################
+logo = "images/UNCLOUD-LOGO.png"
+logo_width = "100px"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "https://getform.io/f/f7ac0284-00e3-47f6-b089-6f6f4adcde5b" # contact form works with https://formspree.io
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = true
+label = "Get Started"
+link = "contact"
+
+  
+############################# social site ########################
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "Discord"
+icon = "fab fa-discord"
+link = "#"

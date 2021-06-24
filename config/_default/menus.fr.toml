@@ -1,0 +1,61 @@
+# main menu
+[[main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+
+[[main]]
+name = "Prix"
+url = "pricing"
+weight = 1
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 1
+
+[[main]]
+name = "FAQ"
+url = "faq"
+weight = 1
+
+# footer menu left
+[[footer_left]]
+name = "L'équipe Uncloud"
+url = "#"
+
+[[footer_left]]
+name = "Où en est le projet ?"
+url = "#"
+
+[[footer_left]]
+name = "Prix"
+url = "pricing"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Les fonctionnalités"
+url = "pricing"
+
+[[footer_middle]]
+name = "Cas d'usages"
+url = "#"
+
+[[footer_middle]]
+name = "Aidez nous grace à un questionnaire"
+url = "#"
+
+# footer menu right
+[[footer_right]]
+name = "Mentions légales"
+url = "privacy-policy"
+
+[[footer_right]]
+name = "Comment avoir accès à la plateforme"
+url = "terms-conditions"
+
+[[footer_right]]
+name = "FAQ"
+url = "faq"
