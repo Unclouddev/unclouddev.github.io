@@ -17,7 +17,7 @@ feature:
     # feature item loop
     - name : "holistique"
       icon : "fas fa-mountain"
-      content : "Une plateforme qui au delá de regrouper tous les essentiels du développement, du test, et de l'infrastructure les combine pour fournir une experience fluide et productive."
+      content : "Une plateforme qui, au delà de regrouper tous les essentiels du développement, du test, et de l'infrastructure, les combine pour fournir une experience fluide et productive."
 
     # feature item loop
     - name : "Responssable"
@@ -32,12 +32,12 @@ feature:
     # feature item loop
     - name : "Intelligent"
       icon : "fas fa-brain"
-      content : "Une des forces de Uncloud viens de l'intelligence de notre plateforme. Des intelligences artificiels ainsi que les dernière technologies d'automatisation vous réduit votre charge de travail et automatise le maximum pour réduire la complexité technique."
+      content : "Une des forces de Uncloud vient de l'intelligence de notre plateforme. De l'intelligence artificiel ainsi que les dernière technologies d'automatisation, nous vous permettons de réduire votre charge de travail et réduisons la complexité technique."
       
     # feature item loop
     - name : "Cohérent"
       icon : "fas fa-atom"
-      content : "Notre souhait est de vous permettre de développer votre produit en valorisant vos plus value. Nous proposons donc une plateforme avec une approche cohérente centré sur le métier, votre réel plus value."
+      content : "Notre souhait est de vous permettre de développer votre produit en valorisant vos plus value. Ainsi nous vous proposons une plateforme ayant une approche cohérente centrée sur le métier, votre différenciation."
     
      # feature item loop
     - name : "Sécurisé"
