@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Découvrez le tout par défaut, vous permettant enfin de vous concentrez sur ce qui compte."
-  image : "images/undraw_features_overview_jg7a.svg"
+  image : "images/accueil.svg"
   content : "Construction, déploiement, test et gestion </br> des projets cloud."
   button:
     enable : true
