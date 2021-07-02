@@ -17,7 +17,7 @@ feature:
     # feature item loop
     - name : "holistique"
       icon : "fas fa-mountain"
-      content : "Une plateforme qui, au-delà de regrouper tous les essentiels du développement, du test, et de l'infrastructure,les combine pour fournir une expérience fluide et productive. Notre approche globale s'est construite autour de vos besoins pour proposer une expérience cohérente et intuitive."
+      content : "Au-delà de regrouper tous les essentiels du développement, du test, et de l'infrastructure,les combine pour fournir une expérience fluide et productive. Notre approche globale s'est développer pour repondre à vos besoins en proposant une expérience cohérente et intuitive."
 
     # feature item loop
     - name : "Responssable"
@@ -27,24 +27,22 @@ feature:
     # feature item loop
     - name : "Accessible"
       icon : "fas fa-stopwatch"
-      content : "Une de nos convictions est que le cloud devrait être accessible à tous, alors qu'aujourd'hui la complexité technique est un frein. Notre plateforme vous accompagne pour développer et créer votre produit. Les freins techniques plus de la partie, vous pouvez désormais vous concentrer sur ce qui compte."
+      content : "Une de nos convictions est que le cloud devrait être accessible à tous, alors qu'aujourd'hui la complexité technique est un frein. Notre plateforme vous accompagne pour développer et créer votre produit. Les freins techniques plus de la partie, vous pouvez désormais vous concentrer sur ce qui compte."
       
     # feature item loop
     - name : "Intelligent"
       icon : "fas fa-brain"
-      content : "Une des forces de Uncloud vient de l'intelligence de notre plateforme. De l'intelligence artificielle ainsi que les dernières technologies d'automatisation, nous vous permettons de réduire votre charge de travail et réduisons la complexité technique.."
+      content : "Une des forces de Uncloud vient de l'intelligence de notre plateforme. De l'intelligence artificielle ainsi que les dernières technologies d'automatisation, nous vous permettons de réduire votre charge de travail et réduisons la complexité technique."
       
     # feature item loop
     - name : "Cohérent"
       icon : "fas fa-atom"
-      content : "Notre souhait est de vous permettre de développer votre produit en valorisant vos plus values. Ainsi nous vous proposons une plateforme ayant une approche cohérente centrée sur le métier, votre différenciation."
+      content : "Notre souhait est de vous permettre de développer vos produits en valorisant les plus values. Ainsi nous vous proposons une plateforme ayant une approche cohérente centrée sur le métier, votre différenciation."
     
      # feature item loop
     - name : "Sécurisé"
       icon : "fas fa-shield-alt"
-      content : "Nous vous proposons un écosystème sécurisé et sécurisant. En quelques cliques implémenté des technologies de sécurié avancées.    La sécurité par défaut vous permet encore une fois de vous concentrer sur ce qui compte en abstrayant les complexités techniques."
-      
-
+      content : "Nous vous proposons un écosystème sécurisé et sécurisant. En quelques cliques implémenté des technologies de sécurié avancées.La sécurité par défaut vous permet encore une fois de vous concentrer sur ce qui compte en abstrayant les complexités techniques."
 
 ######################### Service #####################
 service:
