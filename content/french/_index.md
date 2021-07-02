@@ -17,17 +17,17 @@ feature:
     # feature item loop
     - name : "holistique"
       icon : "fas fa-mountain"
-      content : "Une plateforme qui, au delà de regrouper tous les essentiels du développement, du test, et de l'infrastructure, les combine pour fournir une experience fluide et productive."
+      content : "Une plateforme qui, au-delà de regrouper tous les essentiels du développement, du test, et de l'infrastructure, les combine pour fournir une experience fluide et productive. Notre approche global c'est cnstuit autour de vos besoins pour proposer une expérience cohérente et intuitive."
 
     # feature item loop
     - name : "Responssable"
       icon : "fas fa-leaf"
-      content : "Green par défaut, Uncloud est pensé et développé pour des produits respponsables sans compromis. De la sécurité a la protection des données Uncloud vous offre les garantis nécessaire pour créer votre produit en toute sérenité."
+      content : "Contrôle par défaut, Uncloud est pensé et développé pour des produits responsables sans compromis. De la sécurité à la protection des données en passant par la stabilité, Uncloud vous offre les garantis nécessaire pour concrétiser vos projets en toute sérenité."
       
     # feature item loop
     - name : "Accessible"
       icon : "fas fa-stopwatch"
-      content : "Une de nos convictions est que le cloud devrais être accéssible a tous et que la compléxité technique est aujourd'hui un frein. Notre plateforme vous accompagne pour développer et créer votre produit, en abstrayant la complexité pour vous permettre de vous concentrer sur ce qui compte."
+      content : "Une de nos convictions est que le cloud devrais être accéssible a tous, alors qu'aujourd'hui la compléxité technique est un frein. Notre plateforme vous accompagne pour développer et créer votre produit. Les freins technique plus de la partie, vous pouvez désormais vous concentrer sur ce qui compte."
       
     # feature item loop
     - name : "Intelligent"
@@ -42,7 +42,7 @@ feature:
      # feature item loop
     - name : "Sécurisé"
       icon : "fas fa-shield-alt"
-      content : "Nous vous proposons un écosystème sécurisé et sécurisant. En quelques cliques implémenter des technologies de sécurité avancées. La sécurité par défaut vous permet encore une fois de vous concentrer sur ce qui compte en toute sérenité."
+      content : "Nous vous proposons un écosystème sécurisé et sécurisant. En quelques cliques implémenter des technologies de sécurité avancées. La sécurité par défaut vous permet encore une fois de vous concentrer sur ce qui compte en abstayant les complexités techniques."
       
 
 
