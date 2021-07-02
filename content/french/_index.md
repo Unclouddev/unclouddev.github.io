@@ -53,7 +53,7 @@ service:
     # service item loop
     - title : "Choisissez"
       images:
-      - "images/undraw_decide_3iwx.svg"
+      - "images/Choisir.svg"
       content : "Partez d'une feuille blanche ou choisissez parmis des centaines de services clés en mains. Parmis les services proposez : XXX ; XXX ; XXX ; ..."
       button:
         enable : false
@@ -73,7 +73,7 @@ service:
       # service item loop
     - title : "Testez"
       images:
-      - "images/undraw_split_testing_l1uw.svg"
+      - "images/tester.svg"
       content : "Avant que vos projets soient live, il est important de s'assurer de votre code. Uncloud test pour vous votre code pour chacun de vos services. L'intelligence artificiel d'Uncloud le fait pour vous et vous informe d'éventuelles failles."
       button:
         enable : false
@@ -83,7 +83,7 @@ service:
     # service item loop
     - title : "Déployez"
       images:
-      - "images/undraw_File_sync_re_0pcx.svg"
+      - "images/deployer.svg"
       content : "Tout projets Uncloud peut être déployé en continue par un simple bouton. Le service technique peut desormais se concentrer sur la création de valeurs ajoutées"
       button:
         enable : false
@@ -93,7 +93,7 @@ service:
     # service item loop
     - title : "Gerez"
       images:
-      - "images/undraw_Adjustments_re_gvct.svg"
+      - "images/gerer.svg"
       content : "Que ce soit le cloud hébergeant le projet, les droits d'accès ou encore les budgets, manager un projet de A à Z, n'a jamais été aussi simple."
       button:
         enable : false
