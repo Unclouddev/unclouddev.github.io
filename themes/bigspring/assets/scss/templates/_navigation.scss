@@ -7,6 +7,17 @@
   }
 }
 
+#darkthemeToggle {
+  font-size: 30px;
+  margin-left: 8px;
+  line-height: 58px;
+
+  color: #0aa8a7 ;
+  :hover{
+    color :#0aa8a7 ;
+  }
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: $text-color-dark;
 

@@ -58,9 +58,9 @@ $(window).on('load', function () {
 			localStorage.setItem("darktheme", darktheme)
 
 			if(darktheme){
-				document.getElementsByTagName("body")[0].classList.remove("darktheme")
-			}else{
 				document.getElementsByTagName("body")[0].classList.add("darktheme")
+			}else{
+				document.getElementsByTagName("body")[0].classList.remove("darktheme")
 			}
 
 	})
