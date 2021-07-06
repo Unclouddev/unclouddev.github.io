@@ -13,7 +13,7 @@
     @extend .shadow;
   }
 
-  svg {
+  svg,i {
     font-size: 30px;
     color: $primary-color;
     display: inline-block;
@@ -352,4 +352,156 @@ a.post-title {
 .price{
   font-size: 50px;
   color: $text-color-dark;
+}
+
+.darktheme{
+  .card-body {
+    background-color: $dt-primary-color;
+  }
+  .feature-card{
+    background-color: $black;
+
+    svg,i {
+      color: $white;
+    }
+  }
+
+  .footer-list a {
+    color: $white;
+  
+  }
+
+  a.post-title {
+    color: $dt-text-color-dark;
+  }
+  
+  .content {  
+  
+    a {
+      color: $dt-text-color;
+      border-bottom: 1px dotted $dt-border-color;
+  
+      &:hover {
+        color: $dt-primary-color;
+      }
+    }
+  
+    
+    ul {
+  
+      li {
+  
+        &::before {
+          background: $dt-primary-color;
+        }
+      }
+    }
+  
+    table {
+      border: 1px solid $dt-border-color;
+    }
+  
+    
+    th,
+    td {
+      &:not(:last-of-type) {
+        border-right: 1px solid $dt-border-color;
+      }
+    }
+  
+    thead {
+      background: $dark;
+  
+      tr {
+        border-bottom: 1px solid $dt-border-color;
+      }
+    }
+  
+    .notices p::before {
+      color: $dark;
+    }
+  
+    .notices.note p {
+      background: $dark;
+    }
+  
+    .notices.note p::after {
+      color: $dark;
+    }
+  
+  
+    .notices.tip p {
+      background: $dark;
+    }
+  
+    .notices.tip p::after {
+      color: $white;
+    }
+  
+    .notices.info p {
+      background: $dark;
+    }
+  
+    .notices.info p::after {
+      color: $dark;
+    }
+  
+  
+    .notices.warning p {
+      border-top: 30px solid #E06F6C;
+      background: $dark;
+    }
+  
+    
+  
+  
+    blockquote {
+      color: $dt-text-color;
+      border-left: 2px solid $dt-primary-color;
+      background: $dark;
+  
+    }
+  
+  }
+  
+  
+  // pagination
+  .pagination {
+  
+    .page-item {
+      .page-link {
+        background: $dark;
+        color: $dt-text-color;
+  
+        &:hover {
+          background: $dt-primary-color;
+          color: $white;
+        }
+      }
+  
+      &.active {
+        .page-link {
+          background: $primary-color;
+          color: $white;
+        }
+      }
+    }
+  }
+  
+  .slick-dots {
+  
+    li {
+      &.slick-active {
+        button {
+          background-color: $dt-primary-color;
+        }
+      }
+  
+      
+    }
+  }
+
+  .price{
+    color: $dt-text-color-dark;
+  }
 }

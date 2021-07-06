@@ -1,13 +1,25 @@
-// Color Variables
+//Color Variables
 {{ with site.Params.variables }}
 $primary-color: {{.primary_color | default "#0AA8A7"}};
 $text-color: {{.text_color | default "#777"}};
 $text-color-dark: {{.text_color_dark | default "#222"}};
 $body-color: {{.body_color | default "#fff"}};
 $border-color: {{.border_color | default "#ECECEC"}};
+
+$dt-primary-color: {{.dt_primary_color | default "#1F1B24"}};
+$dt-text-color: {{.dt_text_color | default "#212121"}};
+$dt-text-color-dark: {{.dt_text_color_dark | default "#fff"}};
+$dt-body-color: {{.dt_body_color | default "#121212"}};
+$dt-border-color: {{.dt_border_color | default "#fff"}};
+
+
 $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
+$dark : {{.dt_light | default "#242424" }};
+
+
+
 
 // Font Variables
 $primary-font: '{{ replaceRE ":[ital,]*wght@[0-9,;]+" "" .primary_font | default "Lato"}}', {{.primary_font_type | default "sans-serif"}};

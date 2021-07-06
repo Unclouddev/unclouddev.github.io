@@ -74,3 +74,32 @@ h6,
 .display-3{
   font-size: 3.5rem;
 }
+
+.darktheme {
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    color: $dt-text-color-dark;
+    font-family: $primary-font;
+  }
+
+  p,
+  .paragraph {
+    font-weight: 400;
+    color: $dt-text-color-dark;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $primary-font;
+  }
+
+  body {
+    line-height: 1.2;
+    font-family: $primary-font;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: $dt-text-color;
+  }
+}

@@ -22,3 +22,29 @@
     padding: 10px;
   }
 }
+.darktheme{
+  .nav-item {
+    margin: 0;
+  
+    .nav-link {
+      text-transform: capitalize;
+      font-weight: 700;
+    }
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: $dt-text-color-dark;
+  
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 20px;
+  
+    @include desktop {
+      padding: 10px;
+    }
+  }
+}

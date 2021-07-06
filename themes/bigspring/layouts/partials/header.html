@@ -24,6 +24,7 @@
               {{ range .Children }}
               <a class="dropdown-item" href="{{ .URL | relLangURL }}" title="{{ .Name }}">{{ .Name }}</a>
               {{ end }}
+              
             </div>
           </li>
           {{ else }}
@@ -54,6 +55,9 @@
           {{ end }}
         </select>
         {{ end }}
+        
+        <a class="fas fa-sun" id="darkthemeToggle" style="margin-top: 4%; margin-left: 2%;"></a>
+
         </ul>
 
         {{ if site.Params.navigation_button.enable }}
@@ -62,6 +66,7 @@
         {{ end }}
         {{ end }}
       </div>
+      
     </nav>
   </div>
 </header>

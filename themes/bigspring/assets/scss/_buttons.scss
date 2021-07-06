@@ -101,3 +101,51 @@
     }
   }
 }
+
+.darktheme {
+  .btn {
+    color: $white !important;
+    
+  }
+  
+  .btn-primary {
+    background-color: $dt-primary-color;
+    color: $white;
+    border-color: $dt-primary-color;
+  
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      background-color: $dt-primary-color !important;
+      border-color: $dt-primary-color !important;
+    }
+  }
+  
+  .btn-outline-primary {
+    color: $dt-text-color-dark;
+  
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      border-color: $dt-primary-color !important;
+      color: $primary-color;
+    }
+    &::before{
+      border-color: $dt-primary-color;
+    }
+  }
+  
+  .btn-link {
+    color: $primary-color;
+
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+      color: $dt-primary-color;
+      text-decoration: none;
+    }
+  }
+}
