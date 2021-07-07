@@ -3,6 +3,11 @@ body {
   overflow-x: hidden;
 }
 
+.small{
+  width: 20px;
+  height: auto;
+}
+
 body.darktheme {
   background-color: $dt-body-color;
 }
@@ -32,7 +37,7 @@ body::-webkit-scrollbar-thumb {
   }
   
   ::selection {
-    background-color:darken($color: $dt-primary-color, $amount: 10);
+    background-color:darken($color: $primary-color, $amount: 10);
     color: $black;
   }
   
@@ -219,6 +224,13 @@ textarea.form-control {
 }
 
 .darktheme {
+  li {
+    color: $dt-text-color-dark;
+  }
+  .section{
+    background-color: $dt-body-color !important;
+    color: $dt-text-color !important;
+  }
 
   .form-control {
     &:focus {

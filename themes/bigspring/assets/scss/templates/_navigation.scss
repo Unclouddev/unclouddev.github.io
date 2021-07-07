@@ -6,6 +6,54 @@
     font-weight: 700;
   }
 }
+.navbar-nav {
+  height: 64px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.lang-container {
+  @extend .noselect;
+  overflow: hidden;
+  height: 64px;
+  width: 64px;
+  transition: height .15s ease-in-out;
+  
+  &.open {
+    height: 196px;
+  }
+
+  .lang{
+    display: flex;
+    flex-direction: column;
+  
+    a {
+      height: 64px;
+      width: 64px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      &.selected {
+        order: -1
+      }
+
+      img {
+        height: auto;
+        width: 32px;
+      }
+    }
+  }
+}
 
 #darkthemeToggle {
   font-size: 30px;
@@ -34,8 +82,12 @@
   }
 }
 .darktheme{
+  .lang,
   .navbar-toggler{
     color: $white;
+  }
+  .lang{
+    background-color: $dt-primary-color;
   }
   .nav-item {
     margin: 0;

@@ -186,6 +186,10 @@ body {
   background-color: #fff;
   overflow-x: hidden; }
 
+.small {
+  width: 20px;
+  height: auto; }
+
 body.darktheme {
   background-color: #121212; }
 
@@ -208,7 +212,7 @@ body::-webkit-scrollbar-thumb {
   overflow-x: hidden; }
 
 .darktheme ::selection {
-  background-color: #060507;
+  background-color: #077877;
   color: #000; }
 
 .darktheme body::-webkit-scrollbar {
@@ -347,6 +351,13 @@ textarea.form-control {
 .list-unstyled li {
   margin-bottom: 10px; }
 
+.darktheme li {
+  color: #fff; }
+
+.darktheme .section {
+  background-color: #121212 !important;
+  color: #212121 !important; }
+
 .darktheme .form-control:focus {
   outline: 0;
   border-color: #1F1B24;
@@ -380,6 +391,46 @@ textarea.form-control {
     text-transform: capitalize;
     font-weight: 700; }
 
+.navbar-nav {
+  height: 64px; }
+
+.noselect, .lang-container {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */ }
+
+.lang-container {
+  overflow: hidden;
+  height: 64px;
+  width: 64px;
+  transition: height .15s ease-in-out; }
+  .lang-container.open {
+    height: 196px; }
+  .lang-container .lang {
+    display: flex;
+    flex-direction: column; }
+    .lang-container .lang a {
+      height: 64px;
+      width: 64px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .lang-container .lang a.selected {
+        order: -1; }
+      .lang-container .lang a img {
+        height: auto;
+        width: 32px; }
+
 #darkthemeToggle {
   font-size: 30px;
   margin-left: 8px;
@@ -398,8 +449,12 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
+.darktheme .lang,
 .darktheme .navbar-toggler {
   color: #fff; }
+
+.darktheme .lang {
+  background-color: #1F1B24; }
 
 .darktheme .nav-item {
   margin: 0; }
@@ -675,6 +730,9 @@ a.post-title {
   font-size: 50px;
   color: #222; }
 
+.darktheme small {
+  color: #fff !important; }
+
 .darktheme .card-body {
   background-color: #1F1B24; }
 
@@ -690,10 +748,10 @@ a.post-title {
   color: #fff; }
 
 .darktheme .content a {
-  color: #212121;
+  color: #777 !important;
   border-bottom: 1px dotted #fff; }
   .darktheme .content a:hover {
-    color: #1F1B24; }
+    color: #1F1B24 !important; }
 
 .darktheme .content ul li::before {
   background: #1F1B24; }

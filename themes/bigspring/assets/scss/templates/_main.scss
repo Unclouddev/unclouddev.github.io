@@ -355,6 +355,11 @@ a.post-title {
 }
 
 .darktheme{
+  
+  small{
+    color: $white !important;
+  }
+
   .card-body {
     background-color: $dt-primary-color;
   }
@@ -378,13 +383,15 @@ a.post-title {
   .content {  
   
     a {
-      color: $dt-text-color;
+      color: $text-color !important;
       border-bottom: 1px dotted $dt-border-color;
   
       &:hover {
-        color: $dt-primary-color;
+        color: $dt-primary-color !important;
       }
     }
+
+    
   
     
     ul {

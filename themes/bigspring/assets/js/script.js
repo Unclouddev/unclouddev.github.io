@@ -64,6 +64,11 @@ $(window).on('load', function () {
 			}
 
 	})
+
+	document.getElementById("select-language")
+		.addEventListener("click", function(){
+			document.getElementById("select-language").classList.toggle("open")
+		})
 });
 
 (function($) {
