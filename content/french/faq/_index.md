@@ -38,3 +38,15 @@ Pas besoin de téléchargement, Uncloud est une plateforme SaaS ce qui signifie 
 {{< faq "J'ai un probléme comment je le résoud ?" >}}
 Le service client d'Uncloud est à votre disposition pour répondre à vos intérrogations et à vous accompagner dans la résoluton de problèmes.
 {{</ faq >}}
+
+{{< faq "Pourquoi utiliser Uncloud alors que mon produit fonctionne très bien ?" >}}
+Un produit déjà fonctionnel, Uncloud apporte des plus values multiples. Par défaut un service ou produit sur Uncloud est optimiser pour réduire la consommation de ressources et permmet un gain de temps quant à l'administration et l'évolution de vos produits. De plus Uncloud centralise les fonctionnalités necessaires au développement, déploiement, hébergement et administration de votre produit, ce qui uniforme l'expérience utilisateur.
+{{</ faq >}}
+
+{{< faq "J'utilise un git pour le code de mon produit, Uncloud supporte t'il se format ?" >}}
+Uncloud permet en deux clics d'importer votre git sur la plateforme. Vous retrouverez votre code sur votre espace dédié et pensé pour une collaboration optimisé de votre code.
+{{</ faq >}}
+
+{{< faq "Comment assurez vous la stabilité de la plateforme et celle de mon produit ?" >}}
+Votre solution est hébergé chez un hébergeur sélectionné sur des critères de fiabilité et répondant aux enjeux d'un cloud plus responsable. La fiabilité de votre produit est indépendant de la solution Uncloud. De plus nous nous engagons à détruire les chaines des services cloud actuel. Une fonction vous permettant d'exporter votre code à tout moment répond à cet enjeux.
+{{</ faq >}}
