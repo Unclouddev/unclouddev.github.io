@@ -224,6 +224,15 @@ textarea.form-control {
 }
 
 .darktheme {
+  textarea,
+  input{
+    background-color: $dt-primary-color;
+    &::placeholder {
+      color: $dt-text-color !important;
+    }
+    color: $white;
+  }
+
   li {
     color: $dt-text-color-dark;
   }
@@ -235,12 +244,12 @@ textarea.form-control {
   .form-control {
     &:focus {
       outline: 0;
-      border-color: $dt-primary-color;
+      border-color: $dt-primary-color !important;
       box-shadow: none;
     }
 
     &::placeholder {
-      color: $dt-text-color;
+      color: $dt-text-color !important;
     }
   }
 
@@ -250,7 +259,7 @@ textarea.form-control {
     &::before{
       position: absolute;
       content: "\f058";
-      color: $dt-primary-color;
+      color: $primary-color;
       font-size: 25px;
       font-family: $icon-font;
       font-weight: 900;

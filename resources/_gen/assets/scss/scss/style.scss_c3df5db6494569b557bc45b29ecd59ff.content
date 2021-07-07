@@ -351,6 +351,14 @@ textarea.form-control {
 .list-unstyled li {
   margin-bottom: 10px; }
 
+.darktheme textarea,
+.darktheme input {
+  background-color: #1F1B24;
+  color: #fff; }
+  .darktheme textarea::placeholder,
+  .darktheme input::placeholder {
+    color: #212121 !important; }
+
 .darktheme li {
   color: #fff; }
 
@@ -360,11 +368,11 @@ textarea.form-control {
 
 .darktheme .form-control:focus {
   outline: 0;
-  border-color: #1F1B24;
+  border-color: #1F1B24 !important;
   box-shadow: none; }
 
 .darktheme .form-control::placeholder {
-  color: #212121; }
+  color: #212121 !important; }
 
 .darktheme .check-mark {
   position: relative;
@@ -372,7 +380,7 @@ textarea.form-control {
   .darktheme .check-mark::before {
     position: absolute;
     content: "\f058";
-    color: #1F1B24;
+    color: #0AA8A7;
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -391,8 +399,9 @@ textarea.form-control {
     text-transform: capitalize;
     font-weight: 700; }
 
-.navbar-nav {
-  height: 64px; }
+@media only screen and (min-width: 992px) {
+  .navbar-nav {
+    height: 64px; } }
 
 .noselect, .lang-container {
   -webkit-touch-callout: none;
@@ -411,14 +420,33 @@ textarea.form-control {
 
 .lang-container {
   overflow: hidden;
-  height: 64px;
-  width: 64px;
-  transition: height .15s ease-in-out; }
+  height: 64px; }
+  @media only screen and (min-width: 992px) {
+    .lang-container {
+      width: 64px;
+      transition: height .15s ease-in-out; } }
+  @media only screen and (max-width: 992px) {
+    .lang-container {
+      width: 32px;
+      align-self: center;
+      transition: width .15s ease-in-out; } }
   .lang-container.open {
-    height: 196px; }
+    background-color: #0AA8A7;
+    transition: height .15s ease-in-out; }
+    @media only screen and (min-width: 992px) {
+      .lang-container.open {
+        height: 190px; } }
+    @media only screen and (max-width: 992px) {
+      .lang-container.open {
+        width: 190px; } }
   .lang-container .lang {
-    display: flex;
-    flex-direction: column; }
+    display: flex; }
+    @media only screen and (min-width: 992px) {
+      .lang-container .lang {
+        flex-direction: column; } }
+    @media only screen and (max-width: 992px) {
+      .lang-container .lang {
+        flex-direction: row; } }
     .lang-container .lang a {
       height: 64px;
       width: 64px;
@@ -449,12 +477,12 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
+.darktheme .open {
+  background-color: #242424; }
+
 .darktheme .lang,
 .darktheme .navbar-toggler {
   color: #fff; }
-
-.darktheme .lang {
-  background-color: #1F1B24; }
 
 .darktheme .nav-item {
   margin: 0; }
