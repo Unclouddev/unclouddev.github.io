@@ -363,7 +363,7 @@ textarea.form-control {
   color: #fff; }
 
 .darktheme .section {
-  background-color: #121212 !important;
+  background-color: #121212;
   color: #212121 !important; }
 
 .darktheme .form-control:focus {
