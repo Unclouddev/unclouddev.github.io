@@ -1,7 +1,7 @@
 ############################# English ############################
 [en]
 languageName = "En"
-title = "Bigspring Hugo"
+title = "Uncloud"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
@@ -15,7 +15,7 @@ copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethu
 ############################# English ############################
 [fr]
 languageName = "Fr"
-title = "Bigspring Hugo"
+title = "Uncloud"
 contentDir = "content/french" # content/french
 weight = 1
 ########### footer content ##########
@@ -31,7 +31,7 @@ copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethu
 ############################# Deutsch ############################
 [de]
 languageName = "De"
-title = "Bigspring Hugo"
+title = "Uncloud"
 contentDir = "content/deutsch" # content/german
 weight = 2
 ########### footer content ##########
