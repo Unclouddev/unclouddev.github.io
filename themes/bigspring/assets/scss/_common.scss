@@ -224,18 +224,29 @@ textarea.form-control {
 }
 
 .darktheme {
-  textarea,
-  input{
-    background-color: $dt-primary-color;
-    &::placeholder {
-      color: $dt-text-color !important;
-    }
+  .bg-ligh
+  {
+    background-color: $dt-primary-color !important;
+    
     color: $white;
   }
 
+  textarea,
+  input{
+    background-color: $dt-primary-color;
+    &::placeholder{
+      border-color: $dt-border-color !important;
+      background-color: $dt-body-color !important;
+    }
+    color: $white;
+  }
   li {
     color: $dt-text-color-dark;
   }
+  .bg-white {
+    background-color: $dt-primary-color !important;
+  }
+  
   .section{
     background-color: $dt-body-color;
     color: $dt-text-color !important;

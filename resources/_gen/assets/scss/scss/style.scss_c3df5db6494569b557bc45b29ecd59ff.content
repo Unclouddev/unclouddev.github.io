@@ -351,16 +351,24 @@ textarea.form-control {
 .list-unstyled li {
   margin-bottom: 10px; }
 
+.darktheme .bg-ligh {
+  background-color: #1F1B24 !important;
+  color: #fff; }
+
 .darktheme textarea,
 .darktheme input {
   background-color: #1F1B24;
   color: #fff; }
   .darktheme textarea::placeholder,
   .darktheme input::placeholder {
-    color: #212121 !important; }
+    border-color: #fff !important;
+    background-color: #121212 !important; }
 
 .darktheme li {
   color: #fff; }
+
+.darktheme .bg-white {
+  background-color: #1F1B24 !important; }
 
 .darktheme .section {
   background-color: #121212;
