@@ -6,6 +6,20 @@
     font-weight: 700;
   }
 }
+.fixed{
+  position: fixed;
+}
+
+.navigation{
+  width: 100vw;
+  background-color: $body-color;
+  //margin-top: .015vh;
+}
+
+.navigation.fixed{
+  z-index: 3;
+  box-shadow: 0 .5rem 1rem rgba($color: $primary-color, $alpha: .2);
+}
 
 @media only screen and (min-width: 992px) {
   .navbar-nav {
@@ -110,7 +124,10 @@
   }
 }
 .darktheme{
-  
+  .navigation{
+    background-color: $dt-body-color;
+  }
+
   .open{
       background-color: $dark;
   }

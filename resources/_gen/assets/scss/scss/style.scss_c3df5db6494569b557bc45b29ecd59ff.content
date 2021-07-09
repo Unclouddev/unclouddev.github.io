@@ -407,6 +407,17 @@ textarea.form-control {
     text-transform: capitalize;
     font-weight: 700; }
 
+.fixed {
+  position: fixed; }
+
+.navigation {
+  width: 100vw;
+  background-color: #fff; }
+
+.navigation.fixed {
+  z-index: 3;
+  box-shadow: 0 0.5rem 1rem rgba(10, 168, 167, 0.2); }
+
 @media only screen and (min-width: 992px) {
   .navbar-nav {
     height: 64px; } }
@@ -485,6 +496,9 @@ textarea.form-control {
   @media (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .nav-link {
       padding: 10px; } }
+.darktheme .navigation {
+  background-color: #121212; }
+
 .darktheme .open {
   background-color: #242424; }
 
