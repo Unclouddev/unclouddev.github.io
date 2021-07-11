@@ -408,14 +408,16 @@ textarea.form-control {
     font-weight: 700; }
 
 .fixed {
-  position: fixed; }
+  margin-bottom: 0; }
 
 .navigation {
   width: 100vw;
-  background-color: #fff; }
+  background-color: #fff;
+  z-index: 3;
+  position: fixed;
+  top: 0; }
 
 .navigation.fixed {
-  z-index: 3;
   box-shadow: 0 0.5rem 1rem rgba(10, 168, 167, 0.2); }
 
 @media only screen and (min-width: 992px) {

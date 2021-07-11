@@ -45,11 +45,12 @@ function verifyDarkTheme(){
 		
 
 }
+
 // Preloader js
 $(window).on('load', function () {
 	$('.preloader').addClass('d-none');
 	verifyDarkTheme()
-	let offesetY = 0;
+	
 	window.addEventListener("scroll", e => {
 		if(window.scrollY > 0){
 			document.getElementsByClassName("navigation")[0].classList.add("fixed")
