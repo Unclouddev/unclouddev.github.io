@@ -357,7 +357,10 @@ a.post-title {
 }
 
 .darktheme{
-  
+
+  #form{
+    background-color: $dt-body-color !important;
+  }
   small{
     color: $white !important;
   }

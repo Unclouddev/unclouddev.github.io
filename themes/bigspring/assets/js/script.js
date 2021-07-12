@@ -46,11 +46,28 @@ function verifyDarkTheme(){
 
 }
 
+check= _ =>document.getElementById("form").disabled = document.getElementById("name").value == "" && document.getElementById("mail").value == "" && document.getElementById("subject").value  == ""  && document.getElementById("message").value == ""
+
 // Preloader js
 $(window).on('load', function () {
 	$('.preloader').addClass('d-none');
 	verifyDarkTheme()
 	
+	document.getElementById("name").addEventListener("input", _=>{
+		check()
+	}) 
+	document.getElementById("mail").addEventListener("input", _=>{
+		check()
+	})
+
+	document.getElementById("subject").addEventListener("input", _=>{
+		check()
+	})
+
+	document.getElementById("message").addEventListener("input", _=>{
+		check()
+	})
+
 	window.addEventListener("scroll", e => {
 		if(window.scrollY > 0){
 			document.getElementsByClassName("navigation")[0].classList.add("fixed")
