@@ -97,17 +97,7 @@ service:
         enable : false
         label : "Check it out"
         link : "#"   
-    
-    # service item loop
-    - title : "Gerez"
-      images:
-      - "images/gerer.svg"
-      content : "Que ce soit le cloud hébergeant le projet, les droits d'accès ou encore les budgets, manager un projet de A à Z, n'a jamais été aussi simple."
-      button:
-        enable : false
-        label : "Check it out"
-        link : "#"
-
+        
 ################### Screenshot ########################
 screenshot:
   enable : false
