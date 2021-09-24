@@ -4,7 +4,6 @@ name = "Accueil"
 url = "/"
 weight = 1
 
-
 [[main]]
 name = "Prix"
 url = "pricing"
