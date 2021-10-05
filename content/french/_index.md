@@ -1,7 +1,7 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "Découvrez le tout par défaut, vous permettant enfin de vous concentrez sur ce qui compte."
+  title : "Découvrez la plateforme de dévelopement collaboratif, le déploiement en continue automatiquement et en un clic et l'administration des solutions et projets organisés en organisation."
   image : "images/accueil.svg"
   content : "Construction, déploiement, test et gestion </br> des projets cloud."
   button:
